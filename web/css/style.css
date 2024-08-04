@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #e8e3e3;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #dddde9;
+    z-index: 1000;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    font-style: italic;
+    font-size: 30px;
+    text-decoration: none;
+    color: #0f0d0d;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+}
+
+.nav-menu li {
+    position: relative;
+    margin-left: 30px;
+}
+
+.nav-menu a {
+    text-decoration: none;
+    color: #1c1b1b;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+}
+
+.nav-menu i {
+    margin-right: 8px;
+}
+
+.nav-menu a:hover {
+    color: #0c0cc3;
+}
+
+
+
+
+.features-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px;
+    position: fixed;
+    top: 150px;
+    bottom: 20px;
+    width: 100%;
+}
+
+.feature {
+    padding: 35px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.feature a {
+    text-decoration: none;
+    color: #f3eeee;
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: #b9cad5;*/
+    /*border: 5px solid black;*/
+    padding: 10px;
+    outline: 5px solid white;
+    outline-offset: 5px;
+    border-radius: 10px;
+}
+
+
+.feature img {
+    padding: 10px;
+}
+
+.feature:hover {
+    transform: translateY(-10px);
+}
+
+.banner {
+    background-image: url('../images/intel_1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    
+    
+}
